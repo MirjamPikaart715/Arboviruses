@@ -3,12 +3,12 @@ Designing primers for detection of multiple arboviruses intended for an amplicon
 
 ![](Flowchart/Project_Flowchart.jpg)
 
-#NCBI Virus
+# NCBI Virus
 
-#Uclust
+# Uclust
 
-#Clustal Omega and MUSCLE
+# Clustal Omega and MUSCLE
 
-#MAFFT
+# MAFFT
 
-#Primer3
+# Primer3
