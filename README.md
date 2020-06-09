@@ -6,6 +6,7 @@ Designing primers for detection of multiple arboviruses intended for an amplicon
 # NCBI Virus
 The arbovirus sequences were downloaded from the NCBI Virus database. Nucleotide completeness was set to ‘complete’, and the sequence were ordered by length, starting with the longest sequences. Both GenBank and RefSeq sequences were downloaded.
 For the Bunyaviridae sequences, only sequences from segment L were downloaded.
+
 NCBI Virus: https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/ 
 
 # Uclust
@@ -17,13 +18,14 @@ The clustered sequences were aligned with two multiple alignment tools, Clustal 
 Clustal Omega:
 https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/clustalo_flaviviridae_cluster0.sh
 
-Muscle
+Muscle:
 https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/muscle_flaviviridae_cluster1.sh
 
 # Phylogenetic tree using MAFFT and iTOL
 MAFFT (Multiple Alignment using Fast Fourier Transform) was used to create a phylogenetic tree using one cluster per arbovirus. MAFFT uses a FASTA input and creates a TXT file in which the tree is visible in Newick format. 
 
 The following command template was used: mafft --retree 0 --treeout --reorder [input.fasta] > [output.tree]
+
 MAFFT download: https://mafft.cbrc.jp/alignment/software/linuxportable.html 
 
 iTOL (Interactive Tree Of Life) was used to visualize the tree.
