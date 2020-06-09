@@ -22,6 +22,7 @@ https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/muscle_flavi
 
 # Phylogenetic tree using MAFFT and iTOL
 MAFFT (Multiple Alignment using Fast Fourier Transform) was used to create a phylogenetic tree using one cluster per arbovirus. MAFFT uses a FASTA input and creates a TXT file in which the tree is visible in Newick format. 
+
 The following command template was used: mafft --retree 0 --treeout --reorder [input.fasta] > [output.tree]
 MAFFT download: https://mafft.cbrc.jp/alignment/software/linuxportable.html 
 
