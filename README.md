@@ -20,8 +20,14 @@ https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/clustalo_fla
 Muscle
 https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/muscle_flaviviridae_cluster1.sh
 
-# MAFFT
-test
+# Phylogenetic tree using MAFFT and iTOL
+MAFFT (Multiple Alignment using Fast Fourier Transform) was used to create a phylogenetic tree using one cluster per arbovirus. MAFFT uses a FASTA input and creates a TXT file in which the tree is visible in Newick format. 
+The following command template was used: mafft --retree 0 --treeout --reorder [input.fasta] > [output.tree]
+MAFFT download: https://mafft.cbrc.jp/alignment/software/linuxportable.html 
+
+iTOL (Interactive Tree Of Life) was used to visualize the tree.
+iTOL: https://itol.embl.de/
+
 
 # Primer3
 To design the primers, the alignments were screened for conserved regions using BioEdit. A consenus seqeunce of the conserved region was made and used as sequence_template for Primer3 Most of the conserved regions were not long enough to make primer pairs. A left or right primer was made for conserved regions that were not that far apart from each other. 
