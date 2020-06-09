@@ -4,9 +4,12 @@ Designing primers for detection of multiple arboviruses intended for an amplicon
 ![](Flowchart/Project_Flowchart.jpg)
 
 # NCBI Virus
+The arbovirus sequences were downloaded from the NCBI Virus database. Nucleotide completeness was set to ‘complete’, and the sequence were ordered by length, starting with the longest sequences. Both GenBank and RefSeq sequences were downloaded.
+For the Bunyaviridae sequences, only sequences from segment L were downloaded.
+NCBI Virus: https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/ 
 
 # Uclust
-For designing primers for the detection of arboviruses, the virus sequences were clustered with a 95% identity cut-off using Uclust by the following script: https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/flaviviridae_cluster.sh
+For designing primers for the detection of arboviruses, the virus sequences were clustered with a 95% identity cut-off using Uclust with the following script: https://github.com/MirjamPikaart715/Arboviruses/blob/master/Scripts/flaviviridae_cluster.sh
 
 # Multiple sequence alignment
 The clustered sequences were aligned with two multiple alignment tools, Clustal Omega and Muscle. Both the tools provided the output in fasta format with the following scripts:
